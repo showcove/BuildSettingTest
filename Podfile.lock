@@ -1,16 +1,23 @@
 PODS:
+  - FR1 (0.1.0)
   - PullToRefresher (3.3)
 
 DEPENDENCIES:
+  - FR1 (from `DevPods/FR1`)
   - PullToRefresher
 
 SPEC REPOS:
   trunk:
     - PullToRefresher
 
+EXTERNAL SOURCES:
+  FR1:
+    :path: DevPods/FR1
+
 SPEC CHECKSUMS:
+  FR1: 5e029e42c11c6ff9e1247c1235a1b3584b18e746
   PullToRefresher: 6fc2ab6494caf949bcf6f0223ffd23f9d21a06f6
 
-PODFILE CHECKSUM: fa90cf6d38127e15067e7d1af71372b94447a467
+PODFILE CHECKSUM: ef36972bd6863e60986ea5c14ae603863b244384
 
 COCOAPODS: 1.8.4

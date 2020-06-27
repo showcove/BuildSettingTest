@@ -14,6 +14,6 @@ public class Class1 {
 	public init() { }
 	
 	public func print1() {
-		print("print (1) :", var1)
+		print("print (123) :", var1)
 	}
 }
