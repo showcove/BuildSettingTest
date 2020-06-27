@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import FR1
 
 class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
+		
+		let cl = Class1()
+		
+		cl.print1()
 	}
 
 

@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		10D3E2374FDD8A5A4F41C560 /* Pods_BuildSettingTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED843FFE2607832DD9DE7756 /* Pods_BuildSettingTestTests.framework */; };
-		1FF1E479BC244B7BCF32B8F4 /* Pods_BuildSettingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A707C7502EB3E95A92CFD4DB /* Pods_BuildSettingTest.framework */; };
+		2C4E646A4E19FFF6DD26907F /* Pods_BuildSettingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A707C7502EB3E95A92CFD4DB /* Pods_BuildSettingTest.framework */; };
 		69BBA3C424A6E6AF00379391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BBA3C324A6E6AF00379391 /* AppDelegate.swift */; };
 		69BBA3C624A6E6AF00379391 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BBA3C524A6E6AF00379391 /* SceneDelegate.swift */; };
 		69BBA3C824A6E6AF00379391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BBA3C724A6E6AF00379391 /* ViewController.swift */; };
@@ -17,6 +17,7 @@
 		69BBA3D024A6E6B200379391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BBA3CE24A6E6B200379391 /* LaunchScreen.storyboard */; };
 		69BBA3DB24A6E6B300379391 /* BuildSettingTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BBA3DA24A6E6B300379391 /* BuildSettingTestTests.swift */; };
 		69BBA3E624A6E6D500379391 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 69BBA3E524A6E6D500379391 /* Podfile */; };
+		69BBA42D24A73BB600379391 /* FR1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BBA42C24A73BB600379391 /* FR1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		69BBA3DA24A6E6B300379391 /* BuildSettingTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildSettingTestTests.swift; sourceTree = "<group>"; };
 		69BBA3DC24A6E6B300379391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69BBA3E524A6E6D500379391 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		69BBA42824A73B8200379391 /* FR1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FR1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BBA42C24A73BB600379391 /* FR1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FR1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AF52739F7E65C2BDFB21ED3 /* Pods-BuildSettingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildSettingTest.debug.xcconfig"; path = "Target Support Files/Pods-BuildSettingTest/Pods-BuildSettingTest.debug.xcconfig"; sourceTree = "<group>"; };
 		A707C7502EB3E95A92CFD4DB /* Pods_BuildSettingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuildSettingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB02840BD2FFFCAF3614CD09 /* Pods-BuildSettingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuildSettingTest.release.xcconfig"; path = "Target Support Files/Pods-BuildSettingTest/Pods-BuildSettingTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,7 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF1E479BC244B7BCF32B8F4 /* Pods_BuildSettingTest.framework in Frameworks */,
+				69BBA42D24A73BB600379391 /* FR1.framework in Frameworks */,
+				2C4E646A4E19FFF6DD26907F /* Pods_BuildSettingTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +132,8 @@
 		D9729A7F5C98F803F99281EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69BBA42C24A73BB600379391 /* FR1.framework */,
+				69BBA42824A73B8200379391 /* FR1.framework */,
 				A707C7502EB3E95A92CFD4DB /* Pods_BuildSettingTest.framework */,
 				ED843FFE2607832DD9DE7756 /* Pods_BuildSettingTestTests.framework */,
 			);
