@@ -14,6 +14,7 @@ public class Class1 {
 	public init() { }
 	
 	public func print1() {
-		print("print (123444ttt6666777) :", var1)
+//		assert((var1 != 5), "I wanna die here")
+		print("this is Class1")
 	}
 }
