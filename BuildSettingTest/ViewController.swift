@@ -22,7 +22,5 @@ class ViewController: UIViewController {
 		
 		assert(value == 4, "oh my god")
 	}
-
-
 }
 
